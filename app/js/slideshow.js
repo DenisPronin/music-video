@@ -17,7 +17,7 @@ var mvSlideshow = (function () {
                 'cube',
                 'cubeRandom',
                 'block',
-                'cubeStop',
+                //'cubeStop',
                 'cubeHide',
                 'cubeSize',
                 'horizontal',

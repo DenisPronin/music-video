@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.phone-layout {
+    background: url('../images/preview-page-phone.png') no-repeat;
+    height: 672px;
+    width: 368px;
+    position: absolute;
+    top: 50%;
+    margin-top: -336px;
+    left: 50%;
+    margin-left: -184px;
+}
+
+.box_skitter {
+    width: 320px;
+    height: 504px;
+    top: 60px;
+    left: 22px;
+}
+
+.box_skitter .image img {
+    width: 320px;
+    height: 504px;
+}
+
+.box_skitter .box_clone img {
+    width: 320px;
+    height: 504px;
+}
+
+.box_skitter .next_button,
+.box_skitter .prev_button {
+    display: none !important;
+}
+

@@ -1,0 +1,26 @@
+{
+  "name": "music-video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenisPronin/music-video.git"
+  },
+  "author": "<denis.pronin@sibers.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DenisPronin/music-video/issues"
+  },
+  "homepage": "https://github.com/DenisPronin/music-video#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-connect": "^2.3.1",
+    "gulp-open": "^1.0.0",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}

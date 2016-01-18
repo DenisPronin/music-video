@@ -3,29 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Music Video Example</title>
+    <link rel="stylesheet" href="bower_components/skitter-slideshow/css/skitter.styles.css">
+    <link rel="stylesheet" href="app/css/main.css">
 </head>
 <body>
-    <div class="box_skitter box_skitter_large">
-        <ul>
-            <li>
-                <a href="#cut"><img src="images/001.jpg" class="cut" /></a>
-                <div class="label_text"><p>cut</p></div>
-            </li>
-            <li>
-                <a href="#swapBlocks"><img src="images/002.jpg" class="swapBlocks" /></a>
-                <div class="label_text"><p>swapBlocks</p></div>
-            </li>
-            <li>
-                <a href="#swapBarsBack"><img src="images/003.jpg" class="swapBarsBack" /></a>
-                <div class="label_text"><p>swapBarsBack</p></div>
-            </li>
-        </ul>
+    <div class="phone-layout">
+        <div class="box_skitter">
+            <ul>
+                <li>
+                    <a href="#img1"><img src="app/images/img1.jpg" class="img1" /></a>
+                    <div class="label_text"><p>cut</p></div>
+                </li>
+                <li>
+                    <a href="#img2"><img src="app/images/img2.jpg" class="img2" /></a>
+                    <div class="label_text"><p>swapBlocks</p></div>
+                </li>
+                <li>
+                    <a href="#img3"><img src="app/images/img3.jpg" class="img3" /></a>
+                    <div class="label_text"><p>swapBarsBack</p></div>
+                </li>
+            </ul>
+        </div>
     </div>
 
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/jquery.easing/js/jquery.easing.min.js"></script>
-    <!--<script src="app/lib/jquery.aniimate-colors-min.js"></script>-->
-    <script src="bower_components/skitter-slideshow/js/jquery.skitter.js"></script>
+    <script src="app/lib/jquery.skitter.js"></script>
+
+    <script src="app/js/main.js"></script>
 </body>
 </html>
